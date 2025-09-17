@@ -9,6 +9,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AccountAdd: typeof import('./src/components/AccountAdd.vue')['default']
+    AccountInfoLabel: typeof import('./src/components/AccountInfoLabel.vue')['default']
     AccountItem: typeof import('./src/components/AccountItem.vue')['default']
     AccountList: typeof import('./src/components/AccountList.vue')['default']
     ElInput: typeof import('element-plus/es')['ElInput']
