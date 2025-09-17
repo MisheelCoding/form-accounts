@@ -14,3 +14,10 @@ export interface Account {
   login: string
   password: string | null
 }
+
+// *** константы для валидации
+export const VALIDATION = {
+  LABEL_MAX_LENGTH: 50,
+  LOGIN_MAX_LENGTH: 100,
+  PASSWORD_MAX_LENGTH: 100,
+} as const
