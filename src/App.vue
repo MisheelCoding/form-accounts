@@ -1,13 +1,15 @@
 <template>
   <div class="container">
     <AccountAdd />
+    <AccountInfoLabel />
     <AccountList />
   </div>
 </template>
 
 <script setup lang="ts">
 import AccountAdd from '@/components/AccountAdd.vue'
-import AccountList from './components/AccountList.vue'
+import AccountList from '@/components/AccountList.vue'
+import AccountInfoLabel from '@/components/AccountInfoLabel.vue'
 </script>
 
 <style scoped>
