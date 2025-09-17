@@ -1,8 +1,12 @@
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <AccountAdd />
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AccountAdd from '@/components/AccountAdd.vue'
+</script>
 
 <style scoped>
 .container {
